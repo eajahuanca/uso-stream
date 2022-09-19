@@ -12,6 +12,11 @@ Nota*:  npm install nodemon --global (Para trabajar en modo desarrollo)
 npm run dev
 ```
 
+## Resultado
+
+En la imagen se muestra la corrida del programita
+[Imagen Consola de la corrida](./public/corrida.JPG)
+
 ## Explicacion breve
 
 Usaremos el método createReadStream() del objeto fs nos devuelve un stream a cambio de la ruta del archivo que pretendemos leer, posteriomente recibiremos un stream de lectura. Con él podremos hacer todas las cosas que se encuentran disponibles en el API de NodeJS para los streams
@@ -47,7 +52,3 @@ streamLectura.on('end', function() {
   console.log('La lectura del fichero se ha completado');
 });
 ```
-## Resultado
-
-En la imagen se muestra la corrida del programita
-[Imagen_text](./public/corrida.JPG)
