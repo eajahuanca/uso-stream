@@ -1,0 +1,4 @@
+Uso de stream en nodejs
+metodo read con evento data
+y metodo escritura con pipe
+(para leer datos desde un archivo)

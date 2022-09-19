@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --inspect -r dotenv/config server.js"
+    "dev": "nodemon --inspect -r dotenv/config index.js"
   },
   "author": "Edwin Ajahuanca",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.2",
     "nodemon": "^2.0.20"
   }
 }

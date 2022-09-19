@@ -47,3 +47,7 @@ streamLectura.on('end', function() {
   console.log('La lectura del fichero se ha completado');
 });
 ```
+## Resultado
+
+En la imagen se muestra la corrida del programita
+[Imagen_text](./public/corrida.JPG)
